@@ -61,14 +61,14 @@ const Hero: React.FC = () => {
         {/* Right: Profile Image */}
         <div className="relative z-10 -mr-4">
           {/* Background pink circle offset */}
-          <div className="absolute top-4 right-4 w-40 h-40 bg-pink-200/50 rounded-full blur-sm -z-10"></div>
+          <div className="absolute top-4 right-4 w-44 h-44 bg-pink-200/50 rounded-full blur-sm -z-10"></div>
 
-          {/* Image */}
-          <div className="w-44 h-44 rounded-full border-4 border-white shadow-xl overflow-hidden relative">
+          {/* Image - Container maior com borda mais grossa */}
+          <div className="w-48 h-48 rounded-full border-8 border-white shadow-xl overflow-hidden relative flex items-center justify-center">
             <img
               src="/images/logoMaryKey.png"
               alt="Caren Moraya"
-              className="w-full h-full object-cover"
+              className="w-[85%] h-[85%] object-cover rounded-full"
             />
           </div>
 
